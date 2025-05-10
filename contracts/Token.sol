@@ -204,7 +204,7 @@ contract Token {
         uint256 memory _targetLiquidity,
         uint8 memory cooldown,
         uint256 memory _swapThreshold,
-        Addressables memory addressables;
+        Addressables memory addressables
     ) Auth(msg.sender) {
         _name = name_;
         _symbol = symbol_;
